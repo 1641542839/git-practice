@@ -13,6 +13,7 @@ namespace AutoExcelHelper
         {
             ExcelGeneration run = new ExcelGeneration();
             run.getExcel();
+            Console.WriteLine("start sending email");             
             sendEmail send = new sendEmail();
             _ = send.SendEmails();
             Console.ReadKey();
