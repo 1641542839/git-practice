@@ -15,6 +15,7 @@ namespace AutoExcelHelper
             run.getExcel();
             sendEmail send = new sendEmail();
             _ = send.SendEmails();
+            Console.ReadKey();
         }
     }
 }
